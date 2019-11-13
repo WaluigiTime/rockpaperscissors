@@ -5,6 +5,12 @@
 //GLOBAL VARIABLES
 /* global $ */
 
+$("#shoot").click(function(){
+   let userChoice = $("input").val();
+   $("choice").html(`<li> ${userChoice} </liv>`)
+
+});
+
 
 
 // DOCUMENT READY FUNCTION BELOW
