@@ -7,8 +7,9 @@
 
 $("#shoot").click(function(){
    let userChoice = $("input").val();
-   $("choice").html(`<li> ${userChoice} </liv>`)
+   $("choice").html(`<li> ${userChoice} </li>`)
 
+if
 });
 
 
